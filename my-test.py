@@ -1,4 +1,3 @@
-import os
 import sys
 
 import numpy
@@ -10,4 +9,4 @@ print('hello world')
 r = requests.get('http://www.google.com')
 print('-' * 20)
 print(r.status_code)
-
+print(r.ok)
